@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box model</title>
+  <style>
+    *{
+      background-color:orangered;
+      margin: 0px;
+      padding: 0px;
+      width: fit-content;
+      height: fit-content;
+    }
+    .container{
+      margin:10px;
+      border: 5px solid BLACK;
+    }
+    .multibox{
+      margin: 40px;
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-flow: wra;
+    }
+
+    .box1{
+      padding: 10px;
+      text-align: center;
+      border: 5px solid BLACK;
+      width: 25%;
+      height: 300px;
+      background: yellowgreen;
+      margin: 20px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+    .box2{
+      padding: 10px;
+      text-align: center;
+      border: 5px solid BLACK;
+      width: 25%;
+      height: 300px;
+      background: rgb(16, 237, 163);  
+      margin: 20px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+    .box3{
+      padding: 10px;
+      text-align: center;
+      border: 5px solid teal;
+      width: 25%;
+      height: 300px;
+      background: wight;
+      margin: 20px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+    .main{
+      border: 5px solid BLACK;
+      text-align: justify;
+      padding: 25px;
+      width: auto;
+      height: auto;
+      background:Teal;
+      margin: 50px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="main">Hi, I'm ,MD RASHID ALAM, Diploma in Computer Science Engineering, I Like To Work in Web Developmen
+      as well as I like To know About Computer, I Love Learning to Code,
+      I Enjoy Learning New hings About Computers, Coding is Very Best For Making Any Projects.
+      I Am in internship to Learn About html, I Want to A Successful Softwae Engineer
+      Computer is very best for doing any online work like website making,
+      web page making, software making Ex...!</div>
+    <div class="multibox">
+    <div class="box1">MD RASHID ALAM KATIHAR BIHAR</div>
+    <div class="box2">MD RASHID ALAM KATIHAR BIHAR</div>
+ <div class="box3">MD RASHID ALAM KATIHAR BIHAR</div>
+  </div>
+</div>
+</body>
+</html>
